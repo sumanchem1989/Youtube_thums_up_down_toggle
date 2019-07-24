@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.likeDislike {
+  display: grid;
+  grid-template-columns: 60px 60px;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.active {
+  color: darkblue;
+}
+
+.line {
+  background-color: darkblue;
+  width: 120px;
+  height: 3px;
+}
+
+.line-inactive {
+  background-color: rgba(0, 0, 0, 0.26);
+  width: 120px;
+  height: 3px;
+}
